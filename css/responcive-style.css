@@ -1,0 +1,170 @@
+@media (max-width:1280px){
+  /* Home css */  
+.home .home-banner .home-banner-text{
+    transform: translate(-100%, -50%);
+    }
+}
+@media (max-width:1199px){
+  /* Home css */  
+  .main-btn{
+    font-size: 0.68rem;    
+  }  
+.home .home-banner .home-banner-text{
+    transform: translate(-85%, -50%);
+}
+.newsletter{margin-left: 1.75rem; width: 10rem;}
+.navigation-wrap .nav-item:not(:last-child){
+    padding-right: 1rem;
+}
+.navbar-brand{
+    margin-right: 0.5rem;
+    width: 12rem;
+}
+/* Second nav css */ 
+.manu-second .nav-link{
+    font-size: 0.75rem;
+   
+}
+.manu-second .nav-item:not(:last-child){
+    padding-right: 2.5rem;
+}
+
+}
+@media (max-width:1024px){
+  /* Home css */  
+  .home .home-banner-1,
+  .home .home-banner-2{
+      background-position: 55% center;
+  }
+.home .home-banner .home-banner-text{
+    transform: translate(-82%, -50%);
+}
+}
+@media (max-width:991px){
+.topbar-innere{
+    justify-content: center;
+    text-align: center;
+}   
+.main-btn{display: none;}    
+/* Home css */
+.home .home-banner .home-banner-text h1{
+    font-size: 1.263rem;
+}
+
+.home .home-banner .home-banner-text{
+   
+    padding: 1.5rem 1rem;
+    width: 22.438rem;
+}
+.home .home-banner .home-banner-text a{
+    font-size: 0.75rem;
+}
+.home .slider-icon-left, .home .slider-icon-right{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.home .slider-icon-right:after{
+    top: 22%;
+    left: 37%;
+}
+.home .slider-icon-left:before{
+    top: 22%;
+    left: 37%;
+}
+/* Nav css */
+.navigation-wrap .navbar-brand img{
+   height: 3.8125rem;
+}
+.navigation-wrap{
+    text-align: center;
+    background-color: var(--white-color);
+}
+.navigation-wrap .nav-item:not(:last-child){
+    padding-right: 0;
+}
+.navigation-wrap .nav-link{
+    line-height: 2rem;
+    padding: 0.5rem 0!important;
+    font-size: 1.1rem;
+}
+.newsletter{
+    width: 13.75rem;
+    margin: 0 auto 0.625rem auto;
+}
+/* Second Nav css */
+.manu-second{
+    display: none;
+}
+/* WHERE TO BUY design css */
+.where-to-buy .content-inner{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.where-to-buy .img-inner{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.garden-img{
+    text-align: center;
+}
+.products .card{
+    width: calc(100%/2);
+}
+
+
+}
+@media (max-width:767px){
+  /* Home css */  
+  .home .home-banner-1,
+  .home .home-banner-2{
+      background-position: 80% center;
+      min-height: 400px;
+  }
+  .home .home-banner .home-banner-text{
+    top: auto;
+    bottom: 0;
+    transform: inherit;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.625rem 0.625rem;
+  }
+  .home .home-banner .home-banner-text a{
+      display: none;
+  }
+  .home .home-banner .home-banner-text h1{
+      font-size: 1rem;
+      margin-bottom: 0;
+
+  }
+  .home .carousel-indicators{
+      display: none;
+  }
+  .problem-solver .card{
+      max-width: 360px;
+      margin:0 auto;
+  } 
+  .products .card{
+    width: calc(100%);
+    max-width: 260px;
+    margin: 0 auto;
+  } 
+
+}
+@media (max-width:575px){
+  /* Home css */  
+  .home .home-banner-1,
+  .home .home-banner-2{
+      background-position: 72% center;
+      min-height: 300px;
+  }
+  .home .carousel-control-next, .home .carousel-control-prev{
+      top: -25%;
+  }
+}
+@media (max-width:330px){
+ 
+
+}
